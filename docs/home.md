@@ -4,8 +4,6 @@ sidebar_label: "MZscript"
 ---
 #
 ## Improved BDFD interpreter in Python
-### [Documentation](/docs/DOCS.md)
-### [Contribution](/docs/CONTRIBUTING.md)
 #### Works on (tested) Python 3.10 and newer
 ## Instaling💻
 ```

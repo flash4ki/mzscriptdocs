@@ -33,7 +33,7 @@ export default function Home() {
 	return (
 		<Layout
 			title={`Hello from ${siteConfig.title}`}
-			description="AoiTelegram documentation"
+			description="MZscript documentation"
 		>
 			<HomepageHeader />
 		</Layout>
