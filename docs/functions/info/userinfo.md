@@ -1,30 +1,31 @@
 # $userInfo
+Returns the user information.
 
 ## Usage
 ```py
-$userInfo[userid?;params]
+$userInfo[User ID;(Type)]
 ```
 
 ## Parameters
 | Label | Description | Required |
 | ----- | ----------- | -------- |
-| userid | User ID | False |
-| params | Parameter | True |
+| User ID | User ID to return ths information. | False |
+| Type | What type of information should be returned? | True |
 
-### Params
-```py
-avatar
-banner
-bot
-created
-name
-display_name
-global_name
-id
-system
-```
+### Supported inputs for `Type`:
+| Input | Description |
+| ----- | ----------- |
+| avatar | User avatar icon |
+| banner | User banner image |
+| bot | "true" if user is bot and "false" if isn't |
+| created | Unix-time of created discord account |
+| name | The user's username |
+| display_name | The user's display name |
+| global_name | The user's global  name |
+| id | The user's id |
+| system | "true" if the user is an Official Discord System user and "false" if isn't |
 
 ## Example
 ```py
-<Client>.add_command(name='!command', code='$sendMessage[$userInfo[id]')
+<Client>.add_command(name='!command', code='$sendMessage[$userInfo[id]]')
 ```
