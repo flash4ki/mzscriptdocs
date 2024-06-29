@@ -13,5 +13,5 @@ $titleText[Text]
 
 ## Example
 ```py
-<Client>.add_command(name='!command', code='$sendMessage[$titleText[$message]')
+<Client>.add_command(name='!command', code='$sendMessage[$titleText[$message]]')
 ```
