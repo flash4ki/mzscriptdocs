@@ -13,5 +13,5 @@ $lowerCase[Text]
 
 ## Example
 ```py
-<Client>.add_command(name='!command', code='$sendMessage[$lowerCase[$message]')
+<Client>.add_command(name='!command', code='$sendMessage[$lowerCase[$message]]')
 ```
