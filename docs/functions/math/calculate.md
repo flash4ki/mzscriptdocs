@@ -13,5 +13,5 @@ $calculate[Expression]
 
 ## Example
 ```py
-<Client>.add_command(name='!command', code='$sendMessage[$calculate[10/2+5-6*2]')
+<Client>.add_command(name='!command', code='$sendMessage[$calculate[10/2+5-6*2]]')
 ```
