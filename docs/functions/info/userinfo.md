@@ -1,4 +1,5 @@
 # $userInfo
+Returns the user information.
 
 ## Usage
 ```py
