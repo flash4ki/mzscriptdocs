@@ -11,7 +11,7 @@ $userInfo[userid?;params]
 | userid | User ID | False |
 | params | Parameter | True |
 
-### Params
+### Supported inputs for `params`:
 ```py
 avatar
 banner
