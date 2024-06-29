@@ -13,5 +13,5 @@ $upperCase[Text]
 
 ## Example
 ```py
-<Client>.add_command(name='!command', code='$sendMessage[$upperCase[$message]')
+<Client>.add_command(name='!command', code='$sendMessage[$upperCase[$message]]')
 ```
