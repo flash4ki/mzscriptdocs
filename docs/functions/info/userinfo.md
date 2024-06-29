@@ -1,7 +1,7 @@
 # $userInfo
 
 ## Usage
-```php
+```py
 $userInfo[User ID;(Type)]
 ```
 
