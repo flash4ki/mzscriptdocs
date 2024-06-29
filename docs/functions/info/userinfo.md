@@ -1,17 +1,17 @@
 # $userInfo
 
 ## Usage
-```py
-$userInfo[userid?;params]
+```php
+$userInfo[User ID;(Type)]
 ```
 
 ## Parameters
 | Label | Description | Required |
 | ----- | ----------- | -------- |
-| userid | User ID | False |
-| params | Parameter | True |
+| User ID | User ID to return ths information. | False |
+| Type | What type of information should be returned? | True |
 
-### Supported inputs for `params`:
+### Supported inputs for `Type`:
 ```py
 avatar
 banner
