@@ -1,5 +1,5 @@
-# $channelid
-Returns the current channel ID
+# $channelID
+Returns the current channel ID.
 
 ## Usage
 ```py
