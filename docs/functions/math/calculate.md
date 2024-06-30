@@ -9,7 +9,7 @@ $calculate[Expression]
 ## Parameters
 | Label | Description | Required |
 | ----- | ----------- | -------- |
-| Expression | Calculations to be performed. | False |
+| Expression | Calculations to be performed. | True |
 
 ## Example
 ```py
