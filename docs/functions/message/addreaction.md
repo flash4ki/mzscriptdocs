@@ -11,9 +11,12 @@ $addReaction[(Channel ID;Message ID);Emoji]
 | ----- | ----------- | -------- |
 | Channel ID | Where is message located. | False |
 | Message ID | Where is bot need to add reaction. | False |
-| Emoji | Which reaction bot should add. Example: 👍 | True |
+| Emoji | Which reaction bot should add. | True |
 
 ## Exanple
 ```py
-<Client>.add_command(name='!command', code='$sendMessage[Hello!] $addReaction[😎]')
+<Client>.add_command(name='!command', code="""
+$addReaction[😎] --> add reaction to author message
+$sendMessage[Hello!;#addReaction[👍]] --> add reaction to message
+""")
 ```
