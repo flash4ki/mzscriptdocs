@@ -1,5 +1,5 @@
-# $sendMessage
-Send message to ctx channel by default or to provided channel.
+# $editMessage
+Edit message to ctx channel by default or to provided channel.
 
 ## Errors
 - Cannot send message with 0 args
@@ -8,13 +8,14 @@ Send message to ctx channel by default or to provided channel.
 
 ## Usage
 ```py
-$sendMessage[(Channel ID;Content;Title;Description;Footer;Footer icon;Color;Thumbnail;Image;Author;Author URL;Author Icon;Return ID)]
+$editMessage[(Channel ID;Message ID;Content;Title;Description;Footer;Footer icon;Color;Thumbnail;Image;Author;Author URL;Author Icon;Return ID)]
 ```
 
 ## Arguments
 | Label | Description | Required |
 | ----- | ----------- | -------- |
-| Channel ID | Channel ID to send the message. | False |
+| Channel ID | Channel ID to edit the message. | False |
+| Message ID | Message ID to edit the message. | False |
 | Content | Default message text outside embed. | False |
 | Title | Title, above description (Embed) | False |
 | Description | Main text in the embed (Embed) | False |
@@ -35,12 +36,12 @@ Adds button to message.
 #### Arguments
 | Label | Description | Required |
 | ----- | ----------- | -------- |
-| `style`| secondary/success/danger/primary or link | True 
-| `label`| label of button | True
-| `disabled`| is disabled(true/false) | True
-| `customID`| id of button | True
+| `style` | secondary/success/danger/primary or link | True 
+| `label` | label of button | True
+| `disabled` | is disabled(true/false) | True
+| `customID` | id of button | True
 | `url` | URL(only link type) | False
-| `emoji`| Unicode or discord emoji | False
+| `emoji` | Unicode or discord emoji | False
 | `row` | Row of button, default none | False
 
 ### #addField
