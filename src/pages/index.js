@@ -22,9 +22,6 @@ export default function Home() {
 					</div>
 				</div>
 			</header>
-			<Translate>
-				HI nigers
-			</Translate>
 		</Layout>
 	);
 }
