@@ -31,5 +31,5 @@ $userInfo[(Guild ID;User ID);Type]
 
 ## Example
 ```py
-<Client>.add_command(name='!command', code='$sendMessage[$userInfo[id]]')
+<Client>.add_command(name='!command', code='$sendMessage[User ID: $userInfo[id]]')
 ```

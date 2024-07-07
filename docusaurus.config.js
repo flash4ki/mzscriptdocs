@@ -21,7 +21,15 @@ const config = {
   	// may want to replace "en" with "zh-Hans".
   	i18n: {
     	defaultLocale: 'en',
-    	locales: ['en'],
+		locales: ['en', 'ru'],
+		localeConfigs: {
+			en: {
+				label: 'English',
+			},
+			ru: {
+				label: 'Русский'
+			},
+		},
   	},
   	presets: [
     	[
@@ -57,6 +65,10 @@ const config = {
 					sidebarId: 'docsID',
 					position: 'left',
 					label: 'Documentation',
+				},
+				{
+					type: 'localeDropdown',
+					position: 'right',
 				},
 				{
 					href: 'https://github.com/MZshnik/MZscript',
