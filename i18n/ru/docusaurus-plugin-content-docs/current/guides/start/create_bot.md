@@ -3,38 +3,33 @@ sidebar_position: 1
 sidebar_label: 'Создание бота'
 ---
 
-# Создаем бота
+# Создание бота
 
-## Создаем бота на сайте Discord Developers Portal
+## Создайте приложение на Discord Developers Portal
 
-> Переходим **[Discord Developers Portal](https://discord.com/developers/applications/)**
+Перейдите на **[Discord Developers Portal](https://discord.com/developers/applications/)** и создайте **Новое Приложение**
+![Create Bot](../../../src/img/guides/createbot.png)
 
-![Create Bot](../../../../../../src/img/guides/createbot.png)
+На странице приложения, откройте категорию **"Бот"**
+![Create Bot](../../../src/img/guides/createbot2.png)
 
-> Заходим в **Bot**
+**Скопируйте токен бота** и **включите все Намерения**
+![Create Bot](../../../src/img/guides/createbot3.png)
 
-![Create Bot](../../../../../../src/img/guides/createbot2.png)
+### НЕ ПОКАЗЫВАЙТЕ СВОЙ ТОКЕН НИКОМУ
+Если вы перезагрузили или преоткрыли страницу "Бот", пересоздайте и скопируйте токен 
+![Token](../../../src/img/guides/token.png)
 
-> **Включаем все интенты**
+## Пригласите своего бота
 
-![Create Bot](../../../../../../src/img/guides/createbot3.png)
+Откройте категорию **OAuth2** и создайте новую ссылку чтобы пригласить бота
+![Invite Bot](../../../src/img/guides/invitebot.png)
+![Invite Bot](../../../src/img/guides/invitebot2.png)
+![Invite Bot](../../../src/img/guides/invitebot3.png)
+Скопируйте и перейди по сгенерированной ссылке
 
-### Берем токен
+Выберите ваш сервер где у вас есть права и пригласите бота
+![Invite Bot](../../../src/img/guides/invitebot4.png)
 
-> **НИКОМУ НИКОГДА НЕ ПОКАЗЫВАЙТЕ ТОКЕН**
-
-![Token](../../../../../../src/img/guides/token.png)
-
-### Приглашаем бота
-
-> Заходим в **Oauth2**
-
-![Invite Bot](../../../../../../src/img/guides/invitebot.png)
-![Invite Bot](../../../../../../src/img/guides/invitebot2.png)
-![Invite Bot](../../../../../../src/img/guides/invitebot3.png)
-
-> Копируем **"generated url"**
-
-> Выбираем нужен сервер
-
-![Invite Bot](../../../../../../src/img/guides/invitebot4.png)
+## Теперь вы можете дать жизнь своему боту вместе с MZscript!
+Посмотрите эту [страницу](/create_bot2) которая описывают это более подробно
