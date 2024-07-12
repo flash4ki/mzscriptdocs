@@ -21,11 +21,11 @@ sidebar_label: 'Create Bot'
 
 ### Getting Token
 
-> **DONT SHOW YOU TOKEN**
+> **DONT SHOW YOUR TOKEN**
 
 ![Token](../../../src/img/guides/token.png)
 
-### Invite you bot
+### Invite your bot
 
 > Go to **Oauth2**
 
