@@ -38,10 +38,12 @@ const config = {
       	({
         	docs: {
           		sidebarPath: './sidebars.js',
-          		// Please change this to your repo.
-          		// Remove this to remove the "edit this page" links.
 				editUrl: 'https://github.com/flash4ki/mzscriptdocs/tree/main',
-        	},
+			},
+			blog: {
+				showReadingTime: true,
+				editUrl: 'https://github.com/flash4ki/mzscriptdocs/tree/main',
+			},
 			theme: {
         		customCss: './src/css/custom.css',
         	},
@@ -66,6 +68,7 @@ const config = {
 					position: 'left',
 					label: 'Documentation',
 				},
+				{ to: '/', label: 'Updates', position: 'left' },
 				{
 					type: 'localeDropdown',
 					position: 'right',
