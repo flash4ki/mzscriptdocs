@@ -93,7 +93,7 @@ const config = {
               	},
               	{
                 	label: 'PyPI',
-				  	href: 'https://pypi.org/',
+					href: 'https://pypi.org/project/MZscript/',
              	},
             	],
           	},
